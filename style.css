@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration:none;
+}
+.box {
+    border: 2px solid blue;
+    padding: 25px;
+    margin: 30px;
+    width: 400px;
+    /* float: right; */
+    display: block;
+    position: absolute;
+    left: 447px;
+    text-align: center;
+} 
+.navbar{
+    display: block;
+    width: 40%;
+    margin: 10px auto ;
+    border: red solid 2px;
+    border-radius: 30px;
+}
+.list li{    
+    display: inline-block;
+}
+.list li a{
+    color: rgb(189, 118, 118);
+    padding: 5px 20px;
+}
